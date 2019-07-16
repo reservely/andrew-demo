@@ -1,7 +1,7 @@
 const app = require('./app');
 
-const port = 3005;
+const PORT = 3005;
 
-module.exports = app.listen(port, () => {
-  console.log(`Listening on port ${port}`);
+module.exports = app.listen(PORT, () => {
+  console.log(`listening on port ${PORT}...`);
 });
